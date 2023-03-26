@@ -1,0 +1,3 @@
+cci task run delete_data --objects Lead --org dev
+
+cci task run snowfakery --recipe recipes/recipe.Leads.yml --org dev --run_until_records_loaded Lead:100
